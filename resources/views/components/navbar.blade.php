@@ -13,7 +13,7 @@
                 <a href="/app" class="text-gray-700 hover:text-teal-600 transition duration-300 font-medium">Home</a>
                 <a href="/artikel"
                     class="text-gray-700 hover:text-teal-600 transition duration-300 font-medium">Artikel</a>
-                <a href="#"
+                <a href="/contact"
                     class="text-gray-700 hover:text-teal-600 transition duration-300 font-medium">Contact</a>
             </div>
 
@@ -32,17 +32,17 @@
 
     <!-- Mobile Menu -->
     <div id="mobile-menu" class="md:hidden hidden px-4 pb-4">
-        <a href="#" class="block relative py-2 text-gray-800 font-medium group">
+        <a href="/app" class="block relative py-2 text-gray-800 font-medium group">
             Home
             <span
                 class="absolute bottom-0 left-1/2 h-[2px] w-0 bg-teal-500 transition-all duration-300 group-hover:left-0 group-hover:w-full transform -translate-x-1/2 group-hover:translate-x-0"></span>
         </a>
-        <a href="#" class="block relative py-2 text-gray-800 font-medium group">
+        <a href="/artikel" class="block relative py-2 text-gray-800 font-medium group">
             Artikel
             <span
                 class="absolute bottom-0 left-1/2 h-[2px] w-0 bg-teal-500 transition-all duration-300 group-hover:left-0 group-hover:w-full transform -translate-x-1/2 group-hover:translate-x-0"></span>
         </a>
-        <a href="#" class="block relative py-2 text-gray-800 font-medium group">
+        <a href="/contact" class="block relative py-2 text-gray-800 font-medium group">
             Contact
             <span
                 class="absolute bottom-0 left-1/2 h-[2px] w-0 bg-teal-500 transition-all duration-300 group-hover:left-0 group-hover:w-full transform -translate-x-1/2 group-hover:translate-x-0"></span>
