@@ -21,3 +21,4 @@ Route::get('/admin', function () {
 // Routing untuk halaman contact
 Route::get('/contact', [ContactController::class, 'show'])->name('contact.show');
 Route::post('/contact', [ContactController::class, 'submit'])->name('contact.submit');
+Route::get('/contact/list', [ContactController::class, 'index'])->name('contact.index');
