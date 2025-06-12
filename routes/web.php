@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\BookController;
 use App\Http\Controllers\ContactController;
 
 Route::get('/', function () {
@@ -17,6 +18,8 @@ Route::get('/artikel', function () {
 Route::get('/admin', function () {
     return view('admin');
 });
+Route::resource('books', BookController::class);
+
 
 // Routing untuk halaman contact
 Route::get('/contact', [ContactController::class, 'show'])->name('contact.show');
