@@ -14,6 +14,9 @@ Route::get('/app', function () {
 Route::get('/artikel', function () {
     return view('artikel');
 });
+Route::get('/admin', function () {
+    return view('admin');
+});
 
 // Routing untuk halaman contact
 Route::get('/contact', [ContactController::class, 'show'])->name('contact.show');

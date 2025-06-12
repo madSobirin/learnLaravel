@@ -6,9 +6,10 @@
     <title>Contact Us</title>
     @vite(['resources/css/app.css'])
 </head>
-<x-navbar></x-navbar>
 
 <body class="bg-gray-100 min-h-screen flex items-center justify-center">
+    <x-navbar></x-navbar>
+
 
     <div class="w-full max-w-2xl bg-white p-8 rounded-2xl shadow-md mt-15">
         <h2 class="text-3xl font-bold mb-6 text-center text-gray-800">Contact Us</h2>
@@ -48,7 +49,9 @@
                     Send
                 </button>
             </div>
+
         </form>
+
     </div>
 
 </body>
