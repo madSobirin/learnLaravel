@@ -14,8 +14,7 @@
         <div class="max-w-4xl mx-auto space-y-6">
 
             <!-- Artikel 1 -->
-            <div
-                class="bg-gradient-to-r from-amber-400 to-yellow-300 p-6 md:p-8 rounded-3xl shadow-lg transition hover:shadow-xl">
+            <div class=" p-6 md:p-8 rounded-3xl shadow-lg transition hover:shadow-xl">
                 <h1 class="text-xl md:text-1xl font-semibold text-gray-900">
                     Ini adalah artikel pertama saya. Saya yakin akan menjadi orang sukses di kemudian hari. Saya bisa
                     membahagiakan orang tua saya dan bisa mengumrohkan mereka. Aamiin.
