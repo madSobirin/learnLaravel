@@ -21,7 +21,6 @@
                     membahagiakan orang tua saya dan bisa mengumrohkan mereka. Aamiin.
                 </h1>
             </div>
-
             <!-- Artikel 2 -->
             <div
                 class="bg-gradient-to-r from-indigo-400 to-blue-300 p-6 md:p-8 rounded-3xl shadow-lg transition hover:shadow-xl">
